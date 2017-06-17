@@ -8,5 +8,12 @@
     "ftp-deploy-async-waterfall": "node ./buildScripts/ftp-deploy-async-waterfall.js --local-root=. --remote-root=/sandbox.neringafo.com"
   },
   "author": "Aleksandr Fokin",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^2.4.1",
+    "command-line-args": "^4.0.6",
+    "ftp-deploy": "^1.2.2",
+    "jsftp": "^2.0.0",
+    "jsftp-rmr": "0.0.1"
+  }
 }
