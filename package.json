@@ -1,0 +1,12 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ftp-deploy-callback-hell": "node ./buildScripts/ftp-deploy-callback-hell.js --local-root=. --remote-root=/sandbox.neringafo.com",
+    "ftp-deploy-async-waterfall": "node ./buildScripts/ftp-deploy-async-waterfall.js --local-root=. --remote-root=/sandbox.neringafo.com"
+  },
+  "author": "Aleksandr Fokin",
+  "license": "MIT"
+}
