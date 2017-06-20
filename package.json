@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ftp-deploy-callback-hell": "node ./buildScripts/ftp-deploy-callback-hell.js --local-root=. --remote-root=/sandbox.neringafo.com",
-    "ftp-deploy-async-waterfall": "node ./buildScripts/ftp-deploy-async-waterfall.js --local-root=. --remote-root=/sandbox.neringafo.com"
+    "ftp-deploy": "node ./buildScripts/ftp-deploy.js --local-root=. --remote-root=/sandbox.neringafo.com"
   },
   "author": "Aleksandr Fokin",
   "license": "MIT",
   "devDependencies": {
     "async": "^2.4.1",
     "command-line-args": "^4.0.6",
-    "ftp-deploy": "^1.2.2",
-    "jsftp": "^2.0.0",
-    "jsftp-rmr": "0.0.1"
+    "ftp": "^0.3.10",
+    "ftp-deploy": "^1.2.2"
   }
 }
