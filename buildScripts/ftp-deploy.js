@@ -159,6 +159,11 @@ function deploy(config, callback) {
   });
 
   ftpDeploy.on('uploaded', function(data) {
+    /*
+    process.stdout.write(data.percentComplete + '%\tUploaded file \'' +  data.filename + '\'. Remaining to upload: ' + (data.totalFileCount - data.transferredFileCount) + '.');
+    process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    */
     console.log(data.percentComplete + '%\tUploaded file \'' +  data.filename + '\'. Remaining to upload: ' + (data.totalFileCount - data.transferredFileCount) + '.');
   });
 }
