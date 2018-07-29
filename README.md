@@ -1,5 +1,2 @@
-# sandbox
-The sandbox to try out stuff and do proof of concepts
-
-FTP deployment PoC:
+# FTP deployment for static content
 npm install --save-dev async command-line-args ftp ftp-deploy
